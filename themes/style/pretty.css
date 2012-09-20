@@ -1,0 +1,79 @@
+.deck-container {
+  font-family: "ff-tisa-web-pro", "Helvetica Neue", sans-serif;
+  font-size: 1.75em;
+  background: #FFF; }
+
+.slide h2 {
+  color: #d3473c;
+  border-bottom: none; }
+.slide pre {
+  border-color: #ccc; }
+.slide code {
+  color: #888; }
+.slide blockquote {
+  font-size: 2em;
+  font-style: italic;
+  padding: 1em 2em;
+  color: #000;
+  border-left: 5px solid #ccc; }
+  .slide blockquote p {
+    margin: 0; }
+  .slide blockquote cite {
+    font-size: .5em;
+    font-style: normal;
+    font-weight: bold;
+    color: #888; }
+.slide ::-moz-selection {
+  background: #c00;
+  color: #fff; }
+.slide ::selection {
+  background: #c00;
+  color: #fff; }
+.slide a, .slide a:hover, .slide a:focus, .slide a:active, .slide a:visited {
+  color: #c00;
+  text-decoration: none; }
+.slide a:hover, .slide a:focus {
+  text-decoration: underline; }
+
+.slide .deck-before,
+.slide .deck-previous {
+  opacity: 0.4; }
+  .slide .deck-before:not(.deck-child-current) .deck-before,
+  .slide .deck-before:not(.deck-child-current) .deck-previous,
+  .slide .deck-previous:not(.deck-child-current) .deck-before,
+  .slide .deck-previous:not(.deck-child-current) .deck-previous {
+    opacity: 1; }
+.slide .deck-child-current {
+  opacity: 1; }
+
+.deck-prev-link,
+.deck-next-link {
+  background: #ccc;
+  font-family: serif; }
+  .deck-prev-link, .deck-prev-link:hover, .deck-prev-link:focus, .deck-prev-link:active, .deck-prev-link:visited,
+  .deck-next-link,
+  .deck-next-link:hover,
+  .deck-next-link:focus,
+  .deck-next-link:active,
+  .deck-next-link:visited {
+    color: #fff; }
+  .deck-prev-link:hover, .deck-prev-link:focus,
+  .deck-next-link:hover,
+  .deck-next-link:focus {
+    background: #c00;
+    text-decoration: none; }
+
+.deck-status {
+  font-size: 0.6666em; }
+
+.deck-menu .slide {
+  background: #eee; }
+.deck-menu .deck-current, .no-touch .deck-menu .slide:hover {
+  background: #ddf; }
+
+.grid .left-col {
+  float: left;
+  width: 33%; }
+.grid .right-col {
+  margin-left: 33%;
+  padding-left: 30px; }
