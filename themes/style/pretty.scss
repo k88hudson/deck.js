@@ -166,7 +166,7 @@ $sans: "proxima-nova", "Helvetica Neue", sans-serif;
 	}
 	.right-col {
 		margin-left: $_rectoWidth;
-		padding-left: 30px;
+		padding-left: 80px;
 	}
 }
 
@@ -215,4 +215,10 @@ $sans: "proxima-nova", "Helvetica Neue", sans-serif;
 		font-weight: 400;
 		font-size: 1.3em;
 	}
+}
+
+
+.slide img.align-left {
+	margin: 20px 0;
+	display: inline-block;
 }

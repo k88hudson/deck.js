@@ -117,7 +117,7 @@
   width: 33%; }
 .grid .right-col {
   margin-left: 33%;
-  padding-left: 30px; }
+  padding-left: 80px; }
 
 .moz-title {
   background: black url(/introduction/img/mozpeople.jpg) no-repeat;
@@ -151,3 +151,7 @@
   margin: 0 auto;
   font-weight: 400;
   font-size: 1.3em; }
+
+.slide img.align-left {
+  margin: 20px 0;
+  display: inline-block; }
