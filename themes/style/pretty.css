@@ -120,7 +120,7 @@
   padding-left: 80px; }
 
 .moz-title {
-  background: black url(/introduction/img/mozpeople.jpg) no-repeat;
+  background: black url(../../introduction/img/mozpeople.jpg) no-repeat;
   background-size: cover; }
   .moz-title h1 {
     color: #FFF;
